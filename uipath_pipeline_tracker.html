@@ -751,7 +751,7 @@
   </div>
   <div class="header-right">
     <div class="fy-tag">FY27 Q2</div>
-    <div class="week-badge">Week <strong id="current-week-display">W11</strong></div>
+    <div class="week-badge">Week <strong id="current-week-display">W13</strong></div>
   </div>
 </header>
 
@@ -866,7 +866,7 @@
 </main>
 
 <footer>
-  UiPath LATAM &nbsp;·&nbsp; <strong>New Logos Pipeline Tracker</strong> &nbsp;·&nbsp; FY27 Q2 &nbsp;·&nbsp; Data updated weekly &nbsp;·&nbsp; Last updated: 2026-10-19 09:50
+  UiPath LATAM &nbsp;·&nbsp; <strong>New Logos Pipeline Tracker</strong> &nbsp;·&nbsp; FY27 Q2 &nbsp;·&nbsp; Data updated weekly &nbsp;·&nbsp; Last updated: 2026-11-09 18:16
 </footer>
 
 <script>
@@ -879,30 +879,30 @@ const AVATAR_COLORS = ['#FA4616','#fbbf24','#94a3b8','#3b82f6','#22c55e'];
 // ===STATE_START===
 const state = {
   weekly: [
-    { rank:1, name:'Belmer Corrales', scLW:6, scQTD:9, drLW:0, drQTD:4, bdrLW:0, bdrQTD:1, totalLW:6, iARR:0, q1:1.3, q2:4.0 },
-    { rank:2, name:'Percy Moreno', scLW:2, scQTD:5, drLW:0, drQTD:1, bdrLW:0, bdrQTD:1, totalLW:2, iARR:63318, q1:2.4, q2:1.2 },
-    { rank:3, name:'Astolfo Garza', scLW:1, scQTD:2, drLW:0, drQTD:8, bdrLW:0, bdrQTD:2, totalLW:1, iARR:56000, q1:1.5, q2:11.9 },
-    { rank:4, name:'Karen Szuster', scLW:0, scQTD:3, drLW:0, drQTD:11, bdrLW:0, bdrQTD:3, totalLW:0, iARR:0, q1:2.7, q2:5.5 },
-    { rank:5, name:'Carlos Espejo', scLW:0, scQTD:5, drLW:0, drQTD:6, bdrLW:0, bdrQTD:1, totalLW:0, iARR:0, q1:1.6, q2:3.5 },
+    { rank:1, name:'Carlos Espejo', scLW:0, scQTD:12, drLW:0, drQTD:6, bdrLW:0, bdrQTD:1, totalLW:0, iARR:0, q1:1.3, q2:3.8 },
+    { rank:2, name:'Karen Szuster', scLW:0, scQTD:3, drLW:0, drQTD:12, bdrLW:0, bdrQTD:3, totalLW:0, iARR:0, q1:2.6, q2:7.4 },
+    { rank:3, name:'Belmer Corrales', scLW:0, scQTD:9, drLW:0, drQTD:4, bdrLW:0, bdrQTD:1, totalLW:0, iARR:0, q1:1.1, q2:7.3 },
+    { rank:4, name:'Astolfo Garza', scLW:0, scQTD:2, drLW:3, drQTD:11, bdrLW:0, bdrQTD:0, totalLW:3, iARR:148000, q1:1.2, q2:12.2 },
+    { rank:5, name:'Percy Moreno', scLW:0, scQTD:6, drLW:0, drQTD:1, bdrLW:0, bdrQTD:1, totalLW:0, iARR:0, q1:2.1, q2:2.1 },
   ],
   wow: [
-    { name:'Karen Szuster', qtd:17, weeks:[1,1,2,1,3,0,1,0,2,6,0,null,null] },
-    { name:'Belmer Corrales', qtd:14, weeks:[1,1,1,0,0,0,2,3,0,0,6,null,null] },
-    { name:'Carlos Espejo', qtd:12, weeks:[1,0,3,3,2,1,0,0,1,1,0,null,null] },
-    { name:'Astolfo Garza', qtd:12, weeks:[1,3,0,1,1,2,1,1,0,1,1,null,null] },
-    { name:'Percy Moreno', qtd:7, weeks:[0,1,1,1,0,0,0,1,1,0,2,null,null] },
+    { name:'Carlos Espejo', qtd:19, weeks:[1,0,3,3,2,1,0,0,1,1,0,7,0] },
+    { name:'Karen Szuster', qtd:18, weeks:[1,1,2,1,3,0,1,0,2,6,0,1,0] },
+    { name:'Belmer Corrales', qtd:14, weeks:[1,1,1,0,0,0,2,3,0,0,6,0,0] },
+    { name:'Astolfo Garza', qtd:13, weeks:[0,2,0,1,1,2,1,1,0,1,1,0,3] },
+    { name:'Percy Moreno', qtd:8, weeks:[0,1,1,1,0,0,0,1,1,0,2,1,0] },
   ],
   ranking: [
-    { name:'Karen Szuster', goal:45, nb:3, nb30:2, myd:2, mix:1 },
-    { name:'Astolfo Garza', goal:15, nb:1, nb30:1, myd:1, mix:1 },
+    { name:'Karen Szuster', goal:47, nb:2, nb30:2, myd:2, mix:1 },
+    { name:'Astolfo Garza', goal:32, nb:2, nb30:2, myd:2, mix:46 },
     { name:'Belmer Corrales', goal:14, nb:1, nb30:1, myd:1, mix:1 },
-    { name:'Percy Moreno', goal:0, nb:0, nb30:0, myd:0, mix:0 },
-    { name:'Carlos Espejo', goal:0, nb:1, nb30:0, myd:0, mix:0 },
+    { name:'Percy Moreno', goal:11, nb:1, nb30:1, myd:0, mix:0 },
+    { name:'Carlos Espejo', goal:0, nb:0, nb30:0, myd:0, mix:0 },
   ]
 };
 
 const WEEKS = ['W1','W2','W3','W4','W5','W6','W7','W8','W9','W10','W11','W12','W13'];
-const currentWeekIdx = 10; // W11 = index 10
+const currentWeekIdx = 12; // W13 = index 12
 // ===STATE_END===
 // ===STATE_END===
 
